@@ -1,0 +1,78 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 570px;
+    background: #191919;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.banner_left{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner_firstName{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 85px;
+    margin-top: 74px;
+    text-align: center;
+    color: #6C3EB8;
+}
+.banner_lastName{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 183px;
+    text-align: center;
+    color: #6C3EB8;
+}
+.banner_button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 138px;
+    height: 42px;
+    border: none;
+    background: #6C3EB8;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin-top: 36px;
+    cursor: pointer;
+}
+.banner_image1{
+    position: absolute;
+    width: 204px;
+    height: 170px;
+    left: -40px;
+    bottom: 74px;
+}
+.banner_image2{
+    position: absolute;
+    width: 269px;
+    height: 151px;
+    right: -20px;
+    bottom: -20px;
+}
+.banner_right{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.banner_right>p{
+    position: absolute;
+    bottom: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #212123;
+
+}

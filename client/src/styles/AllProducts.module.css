@@ -1,0 +1,120 @@
+.products_page{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 22px;
+    background: #191919;
+}
+.list_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.products_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list {
+    width: calc(100%/5 - 20px);
+    background: #212123;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.product {
+    background: #212123;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%
+}
+.image {
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 410px);
+}
+.title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+.cat {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B8B8B8;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+.info {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6C3EB8;
+}
+.oldPrice {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #576067;
+}
+
+.purchases {
+    color: #576067;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+}
+.page_count{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.page_count_list{
+    display: flex;
+}
+.page_count_list>button{
+    width: 40px;
+    height: 40px;
+    margin-left: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    color: #576067;
+    background: #212123;
+    border-radius: 8px;
+}
+.page_count_list>button:hover{
+    background: #6C3EB8;
+    color: white;
+}

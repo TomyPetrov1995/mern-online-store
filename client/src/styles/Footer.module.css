@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background: #191919;
+    border-radius: 6px;
+}
+.footer_logo{
+    width: 61px;
+    height: 25px;
+}
+.developer_info{
+    width: 154px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #576067;
+}
+.footer_icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
